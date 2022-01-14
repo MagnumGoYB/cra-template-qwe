@@ -27,7 +27,7 @@
     "template.json"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "git init && husky install",
     "sort": "sort-package-json"
   },
   "devDependencies": {

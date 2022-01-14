@@ -3,7 +3,7 @@
     "scripts": {
       "build": "craco build",
       "eject": "craco eject",
-      "prepare": "husky install",
+      "prepare": "git init && husky install",
       "sort": "sort-package-json",
       "start": "craco start",
       "test": "craco test"
