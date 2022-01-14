@@ -7,6 +7,16 @@
       "start": "craco start",
       "test": "craco test"
     },
+    "eslintConfig": {
+      "extends": ["standard-with-typescript", "prettier"],
+      "env": {
+        "browser": true,
+        "es6": true
+      },
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    },
     "dependencies": {
       "@craco/craco": "^6.4.3",
       "@emotion/babel-preset-css-prop": "^11.2.0",
@@ -21,7 +31,7 @@
       "@types/react": "^17.0.38",
       "@types/react-dom": "^17.0.11",
       "@types/react-router-dom": "^5.3.2",
-      "@typescript-eslint/eslint-plugin": "^5.9.1",
+      "@typescript-eslint/eslint-plugin": "^4.0.1",
       "@welldone-software/why-did-you-render": "^6.2.3",
       "axios": "^0.24.0",
       "camelcase-keys": "^7.0.1",
