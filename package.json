@@ -27,7 +27,6 @@
     "template.json"
   ],
   "scripts": {
-    "postinstall": "husky install",
     "sort": "sort-package-json"
   },
   "devDependencies": {
