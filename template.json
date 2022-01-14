@@ -2,7 +2,7 @@
   "package": {
     "scripts": {
       "build": "craco build",
-      "postinstall": "husky install",
+      "postinstall": "husky install && sort-package-json",
       "sort": "sort-package-json",
       "start": "craco start",
       "test": "craco test"
@@ -46,7 +46,7 @@
       "react-error-boundary": "^3.1.4",
       "react-query": "^3.34.8",
       "react-router-dom": "^6.2.1",
-      "react-scripts": "^5.0.0",
+      "react-scripts": "^4.0.0",
       "react-use": "^17.3.2",
       "recoil": "^0.5.2",
       "sass": "^1.48.0",
