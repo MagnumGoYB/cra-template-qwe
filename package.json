@@ -27,7 +27,7 @@
     "template.json"
   ],
   "scripts": {
-    "postinstall": "sort-package-json && husky install",
+    "postinstall": "husky install && npm run sort",
     "sort": "sort-package-json"
   },
   "devDependencies": {

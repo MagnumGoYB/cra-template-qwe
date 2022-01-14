@@ -1,2 +1,2 @@
-/// <reference types="react-scripts" />
-/// <reference types="@emotion/react/types/css-prop" />
+import 'react-scripts'
+import '@emotion/react/types/css-prop'
