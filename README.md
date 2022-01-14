@@ -1,5 +1,8 @@
 # cra-template-qwe
 
+[![npm version](https://img.shields.io/npm/v/cra-template-qwe.svg?style=flat-square)](https://www.npmjs.com/package/cra-template-qwe)
+[![npm downloads](https://img.shields.io/npm/dm/cra-template-qwe.svg?style=flat-square)](https://www.npmjs.com/package/cra-template-qwe)
+
 My daily use template for [Create React App](https://github.com/facebook/create-react-app)
 
 ## Usage
