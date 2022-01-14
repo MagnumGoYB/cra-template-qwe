@@ -2,7 +2,7 @@
   "package": {
     "scripts": {
       "build": "craco build",
-      "postinstall": "sort-package-json && husky install",
+      "postinstall": "husky install && npm run sort",
       "sort": "sort-package-json",
       "start": "craco start",
       "test": "craco test"
