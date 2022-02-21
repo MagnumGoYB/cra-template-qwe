@@ -2,32 +2,18 @@
   "name": "cra-template-qwe",
   "version": "1.2.2",
   "description": "My daily use template for Create React App",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "template",
-    "typescript",
-    "craco",
-    "eslint",
-    "prettier"
-  ],
+  "license": "MIT",
+  "author": "MagnumGoYB <sosbs@outlook.com> (https://github.com/MagnumGoYB)",
   "repository": {
     "type": "git",
     "url": "git@github.com:MagnumGoYB/cra-template-qwe.git"
   },
-  "license": "MIT",
-  "author": {
-    "name": "MagnumGoYB",
-    "email": "sosbs@outlook.com",
-    "url": "https://github.com/MagnumGoYB"
-  },
   "main": "template.json",
   "files": [
-    "template",
-    "template.json"
+    "template"
   ],
   "scripts": {
-    "sort": "sort-package-json"
+    "prettier-package-json": "prettier-package-json --write"
   },
   "devDependencies": {
     "commitlint": "^16.0.2",
@@ -42,9 +28,19 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.1.7",
     "prettier": "^2.5.1",
+    "prettier-package-json": "^2.6.0",
     "pretty-quick": "^3.1.3",
     "sort-package-json": "^1.53.1"
   },
+  "keywords": [
+    "craco",
+    "create-react-app",
+    "eslint",
+    "prettier",
+    "react",
+    "template",
+    "typescript"
+  ],
   "engines": {
     "node": ">=8"
   }

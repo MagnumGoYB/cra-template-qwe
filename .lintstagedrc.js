@@ -1,4 +1,4 @@
 module.exports = {
   '*': 'pretty-quick --staged',
-  'package.json': 'sort-package-json'
+  'package.json': 'prettier-package-json --write'
 }
